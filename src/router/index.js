@@ -21,6 +21,7 @@ const routes = [
     meta: {layout: 'main'},
     component: Home
   },
+ 
   {
     path: '/orders',
     name: 'orders',
@@ -43,7 +44,7 @@ const routes = [
     path: '/reports',
     name: 'reports',
     meta: {layout: 'main'},
-    component: () => import('../views/Reports.vue')                                                                         
+    component: () => import('../views/Reports.vue')                                                           
   },
   {
     path: '/integrations',

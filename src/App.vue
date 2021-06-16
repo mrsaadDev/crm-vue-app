@@ -1,12 +1,11 @@
 <template>
-<component :is="layout">
-  <router-view></router-view>
-</component>
-  <router-view/>
+  <component :is="layout">
+    <router-view></router-view>
+  </component>
 </template>
 
 <script>
-import EmptyLayout from '@/layouts/EmptyLayout'
+import EmptyLayout from './layouts/EmptyLayout.vue'
 import MainLayout from './layouts/MainLayout.vue'
 export default {
   computed: {
